@@ -10,7 +10,7 @@ import SwiftUI
 
 struct MusicSheetEditView: View {
     var body: some View {
-        Text("Hello world")
+        ScoreView(notes: Array(noteData))
     }
 }
 

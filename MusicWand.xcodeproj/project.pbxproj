@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		42A4D3CBB61CB2C721DD4332 /* Pods_MusicWand.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1905636138077EEBBE9D2EA /* Pods_MusicWand.framework */; };
 		7C5278DC2505DE7B007D7397 /* ScoreDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5278DB2505DE7A007D7397 /* ScoreDetail.swift */; };
+		8D6CC63025063A6200743F2D /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6CC62F25063A6200743F2D /* Note.swift */; };
+		8D6CC63225063AB300743F2D /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6CC63125063AB300743F2D /* ScoreView.swift */; };
+		8D6CC63425063AFC00743F2D /* ScoreGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6CC63325063AFC00743F2D /* ScoreGrid.swift */; };
 		8DC0DDC324FFAB4600C55DB1 /* ScorePDFCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0DDC224FFAB4600C55DB1 /* ScorePDFCreator.swift */; };
 		8DCB144524FE0F9100D49707 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB144424FE0F9100D49707 /* AppDelegate.swift */; };
 		8DCB144724FE0F9100D49707 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB144624FE0F9100D49707 /* SceneDelegate.swift */; };
@@ -36,6 +39,9 @@
 /* Begin PBXFileReference section */
 		78DCBE418A79C6D85AC82BFA /* Pods-MusicWand.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicWand.debug.xcconfig"; path = "Target Support Files/Pods-MusicWand/Pods-MusicWand.debug.xcconfig"; sourceTree = "<group>"; };
 		7C5278DB2505DE7A007D7397 /* ScoreDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreDetail.swift; sourceTree = "<group>"; };
+		8D6CC62F25063A6200743F2D /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		8D6CC63125063AB300743F2D /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		8D6CC63325063AFC00743F2D /* ScoreGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreGrid.swift; sourceTree = "<group>"; };
 		8DC0DDC224FFAB4600C55DB1 /* ScorePDFCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScorePDFCreator.swift; sourceTree = "<group>"; };
 		8DCB144124FE0F9100D49707 /* MusicWand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicWand.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DCB144424FE0F9100D49707 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -143,6 +149,7 @@
 				8DCB148D24FE975800D49707 /* MusicSheetEditView.swift */,
 				8DC0DDC224FFAB4600C55DB1 /* ScorePDFCreator.swift */,
 				8DF7E6832500D6810086F723 /* ScorePDFViewer.swift */,
+				8D6CC63125063AB300743F2D /* ScoreView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -155,6 +162,8 @@
 				8DCB147D24FE112B00D49707 /* MusicNoteElement.swift */,
 				BC5F7D4325032A44007FC290 /* musicModel.swift */,
 				8DCB147F24FE119900D49707 /* SettingsItem.swift */,
+				8D6CC62F25063A6200743F2D /* Note.swift */,
+				8D6CC63325063AFC00743F2D /* ScoreGrid.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -290,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D6CC63425063AFC00743F2D /* ScoreGrid.swift in Sources */,
 				8DCB144524FE0F9100D49707 /* AppDelegate.swift in Sources */,
 				8DCB144724FE0F9100D49707 /* SceneDelegate.swift in Sources */,
 				8DC0DDC324FFAB4600C55DB1 /* ScorePDFCreator.swift in Sources */,
@@ -301,10 +311,12 @@
 				8DCB144924FE0F9100D49707 /* ContentView.swift in Sources */,
 				8DCB148624FE132200D49707 /* MusicSheetView.swift in Sources */,
 				BC5F7D4D2504AA5A007FC290 /* ScoreData.swift in Sources */,
+				8D6CC63225063AB300743F2D /* ScoreView.swift in Sources */,
 				8DF7E6842500D6810086F723 /* ScorePDFViewer.swift in Sources */,
 				BC5F7D4E2504AA5A007FC290 /* Score.swift in Sources */,
 				8DCB148424FE123500D49707 /* NavBar.swift in Sources */,
 				8DCB148224FE120D00D49707 /* PianoView.swift in Sources */,
+				8D6CC63025063A6200743F2D /* Note.swift in Sources */,
 				BC5F7D4A2504A984007FC290 /* ScoreRow.swift in Sources */,
 				8DCB148A24FE28FD00D49707 /* SettingDetailView.swift in Sources */,
 				8DCB148024FE119900D49707 /* SettingsItem.swift in Sources */,
