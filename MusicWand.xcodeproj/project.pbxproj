@@ -3,12 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		42A4D3CBB61CB2C721DD4332 /* Pods_MusicWand.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1905636138077EEBBE9D2EA /* Pods_MusicWand.framework */; };
-		7C5140EF25022CB6001D4875 /* sample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C5140EE25022CB6001D4875 /* sample.pdf */; };
 		8DC0DDC324FFAB4600C55DB1 /* ScorePDFCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC0DDC224FFAB4600C55DB1 /* ScorePDFCreator.swift */; };
 		8DCB144524FE0F9100D49707 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB144424FE0F9100D49707 /* AppDelegate.swift */; };
 		8DCB144724FE0F9100D49707 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB144624FE0F9100D49707 /* SceneDelegate.swift */; };
@@ -26,11 +25,16 @@
 		8DCB148C24FE608D00D49707 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB148B24FE608D00D49707 /* AboutView.swift */; };
 		8DCB148E24FE975800D49707 /* MusicSheetEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCB148D24FE975800D49707 /* MusicSheetEditView.swift */; };
 		8DF7E6842500D6810086F723 /* ScorePDFViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF7E6832500D6810086F723 /* ScorePDFViewer.swift */; };
+		BC5F7D4225023461007FC290 /* Sample.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BC5F7D4125023461007FC290 /* Sample.pdf */; };
+		BC5F7D4425032A44007FC290 /* musicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5F7D4325032A44007FC290 /* musicModel.swift */; };
+		BC5F7D482504A920007FC290 /* ScoreDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5F7D472504A920007FC290 /* ScoreDetail.swift */; };
+		BC5F7D4A2504A984007FC290 /* ScoreRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5F7D492504A984007FC290 /* ScoreRow.swift */; };
+		BC5F7D4D2504AA5A007FC290 /* ScoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5F7D4B2504AA59007FC290 /* ScoreData.swift */; };
+		BC5F7D4E2504AA5A007FC290 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5F7D4C2504AA5A007FC290 /* Score.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		78DCBE418A79C6D85AC82BFA /* Pods-MusicWand.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicWand.debug.xcconfig"; path = "Target Support Files/Pods-MusicWand/Pods-MusicWand.debug.xcconfig"; sourceTree = "<group>"; };
-		7C5140EE25022CB6001D4875 /* sample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = sample.pdf; path = Desktop/sample.pdf; sourceTree = SOURCE_ROOT; };
 		8DC0DDC224FFAB4600C55DB1 /* ScorePDFCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScorePDFCreator.swift; sourceTree = "<group>"; };
 		8DCB144124FE0F9100D49707 /* MusicWand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicWand.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DCB144424FE0F9100D49707 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +55,12 @@
 		8DCB148D24FE975800D49707 /* MusicSheetEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSheetEditView.swift; sourceTree = "<group>"; };
 		8DF7E6832500D6810086F723 /* ScorePDFViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScorePDFViewer.swift; sourceTree = "<group>"; };
 		B1905636138077EEBBE9D2EA /* Pods_MusicWand.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MusicWand.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC5F7D4125023461007FC290 /* Sample.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Sample.pdf; sourceTree = "<group>"; };
+		BC5F7D4325032A44007FC290 /* musicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicModel.swift; sourceTree = "<group>"; };
+		BC5F7D472504A920007FC290 /* ScoreDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScoreDetail.swift; path = "../../../MusicWandcopy /MusicWand/View/ScoreDetail.swift"; sourceTree = "<group>"; };
+		BC5F7D492504A984007FC290 /* ScoreRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreRow.swift; sourceTree = "<group>"; };
+		BC5F7D4B2504AA59007FC290 /* ScoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreData.swift; sourceTree = "<group>"; };
+		BC5F7D4C2504AA5A007FC290 /* Score.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
 		E8E2499DFAB10ED09C487FB0 /* Pods-MusicWand.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicWand.release.xcconfig"; path = "Target Support Files/Pods-MusicWand/Pods-MusicWand.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,7 +82,6 @@
 				78DCBE418A79C6D85AC82BFA /* Pods-MusicWand.debug.xcconfig */,
 				E8E2499DFAB10ED09C487FB0 /* Pods-MusicWand.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -97,6 +106,7 @@
 		8DCB144324FE0F9100D49707 /* MusicWand */ = {
 			isa = PBXGroup;
 			children = (
+				8DCB145224FE0F9600D49707 /* Info.plist */,
 				8DCB145A24FE105300D49707 /* Controller */,
 				8DCB145924FE104A00D49707 /* Model */,
 				8DCB145824FE104000D49707 /* View */,
@@ -105,7 +115,6 @@
 				8DCB144624FE0F9100D49707 /* SceneDelegate.swift */,
 				8DCB144A24FE0F9600D49707 /* Assets.xcassets */,
 				8DCB144F24FE0F9600D49707 /* LaunchScreen.storyboard */,
-				8DCB145224FE0F9600D49707 /* Info.plist */,
 				8DCB144C24FE0F9600D49707 /* Preview Content */,
 			);
 			path = MusicWand;
@@ -122,9 +131,11 @@
 		8DCB145824FE104000D49707 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7C5140EE25022CB6001D4875 /* sample.pdf */,
+				BC5F7D492504A984007FC290 /* ScoreRow.swift */,
+				BC5F7D4125023461007FC290 /* Sample.pdf */,
 				8DCB148124FE120D00D49707 /* PianoView.swift */,
 				8DCB148324FE123500D49707 /* NavBar.swift */,
+				BC5F7D472504A920007FC290 /* ScoreDetail.swift */,
 				8DCB148524FE132200D49707 /* MusicSheetView.swift */,
 				8DCB148724FE133A00D49707 /* SettingView.swift */,
 				8DCB148924FE28FD00D49707 /* SettingDetailView.swift */,
@@ -139,7 +150,10 @@
 		8DCB145924FE104A00D49707 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BC5F7D4C2504AA5A007FC290 /* Score.swift */,
+				BC5F7D4B2504AA59007FC290 /* ScoreData.swift */,
 				8DCB147D24FE112B00D49707 /* MusicNoteElement.swift */,
+				BC5F7D4325032A44007FC290 /* musicModel.swift */,
 				8DCB147F24FE119900D49707 /* SettingsItem.swift */,
 			);
 			path = Model;
@@ -220,9 +234,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C5140EF25022CB6001D4875 /* sample.pdf in Resources */,
 				8DCB145124FE0F9600D49707 /* LaunchScreen.storyboard in Resources */,
 				8DCB144E24FE0F9600D49707 /* Preview Assets.xcassets in Resources */,
+				BC5F7D4225023461007FC290 /* Sample.pdf in Resources */,
 				8DCB144B24FE0F9600D49707 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,15 +293,20 @@
 				8DCB144524FE0F9100D49707 /* AppDelegate.swift in Sources */,
 				8DCB144724FE0F9100D49707 /* SceneDelegate.swift in Sources */,
 				8DC0DDC324FFAB4600C55DB1 /* ScorePDFCreator.swift in Sources */,
+				BC5F7D4425032A44007FC290 /* musicModel.swift in Sources */,
 				8DCB148C24FE608D00D49707 /* AboutView.swift in Sources */,
 				8DCB148E24FE975800D49707 /* MusicSheetEditView.swift in Sources */,
 				8DCB147E24FE112B00D49707 /* MusicNoteElement.swift in Sources */,
 				8DCB148824FE133A00D49707 /* SettingView.swift in Sources */,
 				8DCB144924FE0F9100D49707 /* ContentView.swift in Sources */,
 				8DCB148624FE132200D49707 /* MusicSheetView.swift in Sources */,
+				BC5F7D4D2504AA5A007FC290 /* ScoreData.swift in Sources */,
 				8DF7E6842500D6810086F723 /* ScorePDFViewer.swift in Sources */,
+				BC5F7D482504A920007FC290 /* ScoreDetail.swift in Sources */,
+				BC5F7D4E2504AA5A007FC290 /* Score.swift in Sources */,
 				8DCB148424FE123500D49707 /* NavBar.swift in Sources */,
 				8DCB148224FE120D00D49707 /* PianoView.swift in Sources */,
+				BC5F7D4A2504A984007FC290 /* ScoreRow.swift in Sources */,
 				8DCB148A24FE28FD00D49707 /* SettingDetailView.swift in Sources */,
 				8DCB148024FE119900D49707 /* SettingsItem.swift in Sources */,
 			);
@@ -428,6 +447,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MusicWand/Preview Content\"";
+				DEVELOPMENT_TEAM = ZUY787U99F;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MusicWand/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -448,6 +468,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MusicWand/Preview Content\"";
+				DEVELOPMENT_TEAM = ZUY787U99F;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MusicWand/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

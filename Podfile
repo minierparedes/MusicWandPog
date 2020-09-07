@@ -7,5 +7,5 @@ target 'MusicWand' do
 
   # Pods for MusicWand
 
-	pod 'RealmSwift'
+pod 'RealmSwift'
 end
