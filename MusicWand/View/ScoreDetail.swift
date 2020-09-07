@@ -17,11 +17,4 @@ struct ScoreDetail: View {
         }
         .navigationBarTitle(Text(score.title), displayMode: .inline)
 }
-    let realm: Realm = try! Realm()
-    let tracks = realm.objects(musicTrack.self)
-struct m_Previews: PreviewProvider {
-    
-    static var previews: some View {
-        ScoreDetail(score: tracks[0])
-    }
 }
